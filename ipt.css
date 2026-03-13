@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: rgb(246, 250, 168);
+  height: 100vh;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 2px 5px;
+    background-color: rgb(55, 61, 61);
+}
+
+.nameLog{
+    font-size: 40px;
+    margin: 0;
+
+}
+
+.page{
+    margin-left: 25px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+.page:hover{
+    color: blue;
+}
+
+.name {
+    display: flex;
+    font-size: 40px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;     /* Centers horizontally */
+    justify-content: center; /* Centers vertically if height is large */
+    margin-top: 20px;
+}
+
+.profile {
+    width: 310px;       /* adjust as you want */
+    height: 470px;
+    object-fit:fill;
+}
+
+.image_paragraph{
+    font-size: 40px;    /* makes text bigger */
+    font-weight: 700;   /* makes text bold/thicker */
+    font-style: italic;
+    line-height: 1.5;   /* adds spacing between lines */
+    text-align: left;   /* optional, aligns text nicely */
+}
+
+.image-par1{
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.image-par2{
+    color:blueviolet;
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.sideHead{
+    color:white;
+    margin-right: 16px;
+    font-size:large;
+    text-decoration: none;
+}
+
+.sideHead:hover {
+    color: rgb(4, 205, 255);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.divider {
+    border: 0;           
+    height: 2px;              
+    background-color: #8c8888;   
+    width: 80%;               
+    margin: 20px auto;
+} 
+
+.pagesPad{
+    padding-top: 10px;
+}
+
+.boxes {
+    display: flex;           
+    gap: 20px;               
+    flex-wrap: wrap;         
+    justify-content: center; 
+    margin-top: 30px;
+}
+
+.box {
+    background-color: white;   
+    padding: 20px;
+    border-radius: 10px;       
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    max-width: 300px;
+    flex: 1;                   
+    text-align: center;
+}
